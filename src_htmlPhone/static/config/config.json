@@ -177,20 +177,7 @@
       "es_ES__name": "Contactos",
       "icons": "/html/static/img/icons_app/contacts.png",
       "routeName": "contacts",
-      "inHomePage": false
-    },
-    {
-      "name": "Messages",
-      "fr_FR__name": "Messages",
-      "en_US__name": "Messages",
-      "cs_CZ__name": "Zprávy",
-      "de_DE__name": "Nachrichten",
-      "pl_PL__name": "Wiadomości",
-      "es_ES__name": "Mensajes",
-      "icons": "/html/static/img/icons_app/sms.png",
-      "routeName": "messages",
-      "inHomePage": true,
-      "puceRef": "nbMessagesUnread"
+      "inHomePage": true
     },
     {
       "name": "Settings",
