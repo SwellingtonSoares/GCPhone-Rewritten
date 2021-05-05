@@ -7,11 +7,6 @@ const Menu = () => import("@/components/Menu");
 const Contacts = () => import("@/components/contacts/Contacts");
 const Contact = () => import("@/components/contacts/Contact");
 
-const MessagesList = () => import("@/components/messages/MessagesList");
-const Messages = () => import("@/components/messages/Messages");
-const MessageContactsSelect = () =>
-  import("@/components/messages/MessageContactsSelect");
-
 const Appels = () => import("@/components/Appels/Appels");
 const AppelsActive = () => import("@/components/Appels/AppelsActive");
 const AppelsNumber = () => import("@/components/Appels/AppelsNumber");
@@ -48,21 +43,6 @@ export default new Router({
       path: "/contact/:id/:number?",
       name: "contacts.view",
       component: Contact
-    },
-    {
-      path: "/messages",
-      name: "messages",
-      component: MessagesList
-    },
-    {
-      path: "/messages/select",
-      name: "messages.selectcontact",
-      component: MessageContactsSelect
-    },
-    {
-      path: "/messages/:number/:display",
-      name: "messages.view",
-      component: Messages
     },
     {
       path: "/bank",
