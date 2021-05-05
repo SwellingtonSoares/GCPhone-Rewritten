@@ -27,7 +27,7 @@ const getters = {
       return state.appelsInfo.receiver_num
     }
     if (state.appelsInfo.hidden === true) {
-      return '###-####'
+      return '###-###'
     }
     return state.appelsInfo.transmitter_num
   },
@@ -114,7 +114,7 @@ if (process.env.NODE_ENV !== 'production') {
     "owner": "336-4557",
     "accepts": 1,
     "time": 1528374566000
-  }, {"id": 4, "incoming": 1, "num": "555-5555", "owner": "336-4557", "accepts": 0, "time": 1528371227000}]
+  }, {"id": 4, "incoming": 1, "num": "555-555", "owner": "336-4557", "accepts": 0, "time": 1528371227000}]
   state.appelsInfo = {
     initiator: false,
     id: 5,
